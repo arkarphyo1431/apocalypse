@@ -1,0 +1,81 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000; /* Black background */
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.title {
+  font-size: 24px;
+  color: #fff; /* White text color */
+  margin-bottom: 20px;
+}
+
+.box {
+  display: inline-block;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border: 2px solid #6a0dad; /* Purple border color */
+}
+
+.text {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  width: calc(100% - 22px); /* Adjust width to fit inside the box */
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.ok-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #000; /* Black button */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ok-button:hover {
+  background-color: #333; /* Slightly lighter black on hover */
+}
+
+.cute-image {
+  width: 100px; /* Small size for the image */
+  height: auto; /* Maintain aspect ratio */
+  display: block;
+  margin: 20px auto; /* Center the image horizontally and add some margin */
+}
+
+.ok-button-black {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #000; /* Black button */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ok-button-black:hover {
+  background-color: #333; /* Slightly lighter black on hover */
+}
